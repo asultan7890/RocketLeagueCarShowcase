@@ -1,0 +1,34 @@
+.navigation {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navigation a{
+    float:left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:#aad8ff;
+    font-size: 22px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.navigation a:hover{
+    background-color: #aad8ff;
+    color: black;
+}
+
+.navigation a.active{
+    background-color: #00005f;
+    color: white;
+}
+
+body {
+    background-color: #aad8ff;  
+}
+
+.title {
+    font-family: Tahoma, Geneva, sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+} 
